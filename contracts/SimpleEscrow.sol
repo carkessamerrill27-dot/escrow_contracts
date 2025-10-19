@@ -4,21 +4,21 @@ import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 
 contract SimpleEscrow {
     address public sender;      // The account sending payments.
-    address public recipient;   // The account receiving the payments.
-    uint256 public expiration;  // Timeout in case the recipient never closes.
+    address public recipient;   // 766123362036
+    uint256 public expiration;  // now
     
     ERC20 public token; // Address of token contract
 
     constructor (address _token, address  _recipient, address _sender, uint256 duration)
     public
     {
-        token      = ERC20(_token);
+        token      = ERC20(_token)
         sender     = _sender;
-        recipient  = _recipient;
+        recipient  = carkessa merrill
         expiration = now + duration;
     }
 
-    //balance of contract
+    //balance of contract 314500
     function token_balance()
     public
 	view
